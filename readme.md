@@ -1,6 +1,5 @@
 # Projeto Integrador
 
-
 <h5>CENTRO UNIVERSITÁRIO SENAC</h5>
 
 
@@ -50,7 +49,7 @@
 <h5><em><strong>ABSTRACT</strong></em></h5>
 
 
-        AMORIN, C. VIDAL, E. CARVALHO, G, CREMM, L. CECILIA, M. MONTEIRO, R. LEONARDO, S. ALVES, V. Implementação de processo de modelagem de um sistema Orientado a Objetos, voltado a gestão de dados do Centro Universitário SENAC, São Paulo, 2024.
+    	    AMORIN, C. VIDAL, E. CARVALHO, G, CREMM, L. CECILIA, M. MONTEIRO, R. LEONARDO, S. ALVES, V. Implementação de processo de modelagem de um sistema Orientado a Objetos, voltado a gestão de dados do Centro Universitário SENAC, São Paulo, 2024.
         This work was prepared at the request of the Centro Universitário SENAC, with the objective of developing software using the Unified Modeling Language (UML). This would allow the description, visualization and communication of the design of a software system in a clear and concise manner. It provides a set of diagrams and notations to model different aspects of a system, such as the structure, behavior and interaction between components. In other words, the software aims to manage and organize information about the people who are part of the university, such as students, professors, employees, etc.
         Keywords: Object-oriented programming, Unified Modeling Language (UML), case diagram, use case scenarios, class diagram.
 
@@ -61,7 +60,7 @@
 
 <h5><em><strong>SUMÁRIO</strong></em></h5>
  
-		**INTRODUÇÃO**
+		**INTRODUÇÃO*
         1. Desenvolvimento de sistemas;
         1.1. Sistemas de software: definição;
         1.2 Paradigmas de desenvolvimento: estruturado e orientado a objeto;
@@ -70,8 +69,8 @@
         2.2 Descrição de caso de uso;
         3.0 Diagrama de classes: conceito;
         3.1 Diagrama de classes;
-		CONSIDERAÇÕES FINAIS;
-		REFERÊNCIA BIBLIOGRÁFICA.
+	CONSIDERAÇÕES FINAIS;
+	REFERÊNCIA BIBLIOGRÁFICA.
 		
 		
 		
@@ -81,11 +80,11 @@
 <h5><em><strong>INTRODUÇÃO</strong></em></h5>
 		
 
-		**Desenvolvimento de Sistemas**
+		**Desenvolvimento de Sistemas*
 		
-		A informação é algo tão valioso para as instituições quanto o produto e o serviço que oferecem e, com o avanço das tecnologias e a facilidade ao seu acesso, as empresas passaram a depender cada vez mais desses dados e dos sistemas computacionais disponíveis para acompanhar suas atividades.
-		Os sistemas e softwares exercem um papel muito importante nesta era tecnológica, nos dias atuais as empresas, indivíduos, governo e população em geram tem total dependência dessa tecnologia.
-			> O Surgimento dos primeiros sistemas de software ocorreu na década de 1950; sua evolução foi densa e rápida e, desde então, seu progresso é constante, continuando a ser a tecnologia mais importante no contexto mundial (PRESSMAN, 1995; PRESSMAN, 2016).
+	A informação é algo tão valioso para as instituições quanto o produto e o serviço que oferecem e, com o avanço das tecnologias e a facilidade ao seu acesso, as empresas passaram a depender cada vez mais desses dados e dos sistemas computacionais disponíveis para acompanhar suas atividades.
+	Os sistemas e softwares exercem um papel muito importante nesta era tecnológica, nos dias atuais as empresas, indivíduos, governo e população em geram tem total dependência dessa tecnologia.
+O Surgimento dos primeiros sistemas de software ocorreu na década de 1950; sua evolução foi densa e rápida e, desde então, seu progresso é constante, continuando a ser a tecnologia mais importante no contexto mundial (PRESSMAN, 1995; PRESSMAN, 2016).
 
 		Desde o surgimento dos primeiros sistemas de software sua evolução não parou.
 
@@ -103,22 +102,22 @@ Fonte: adaptado de Pressman (1995), Albertin (2009), Guerra e Colombo (2009).
 
         Podemos definir um sistema de software como um conjunto de programas e dados que trabalham juntos para realizar uma função específica ou conjunto de funções. Instruções estas que são executadas por um computador para realizar uma tarefa ou conjunto de tarefas.
 		
-			> Segundo LEITE, São programas de computadores, em suas diversas formas, e a documentação associada. Um programa é um conjunto de soluções algorítmicas, codificadas numa linguagem de programação, executado numa máquina real. Software é um produto conceitual e lógico. (LEITE, 2006).
+		Segundo LEITE, São programas de computadores, em suas diversas formas, e a documentação associada. Um programa é um conjunto de soluções algorítmicas, codificadas numa linguagem de programação, executado numa máquina real. Software é um produto conceitual e lógico. (LEITE, 2006).
     
 
 
 <h5><em><strong>1.2 Paradigma de desenvolvimento estruturado</strong></em></h5>
 
-			>Antes de 1975, a maior parte das empresas de software não utilizava nenhuma técnica específica; cada indivíduo trabalhava do seu próprio jeito. Grandes avanços foram feitos aproximadamente entre 1975 e 1985, com o desenvolvimento do assim chamado paradigma clássico ou estruturado (SCHACH, 2010).
+Antes de 1975, a maior parte das empresas de software não utilizava nenhuma técnica específica; cada indivíduo trabalhava do seu próprio jeito. Grandes avanços foram feitos aproximadamente entre 1975 e 1985, com o desenvolvimento do assim chamado paradigma clássico ou estruturado (SCHACH, 2010).
 
 		A programação estruturada é uma abordagem para desenvolver software que se baseia em estruturas de controle e fluxo de dados. 	
 
 
 		A programação estruturada tem como base três principais conceitos:
 
-			1.	**Modularidade:** o software é dividido em módulos independentes que podem ser facilmente modificados e reutilizados.
-			2.	**Estruturas de controle:** o fluxo de dados é controlado por estruturas de controle como laços, condições e funções.
-			3.	**Abstração:** o software é projetado para ser fácil de entender e manter, com abstrações que escondem detalhes técnicos.
+	**1.	Modularidade:* o software é dividido em módulos independentes que podem ser facilmente modificados e reutilizados.
+	**2.      Estruturas de controle:* o fluxo de dados é controlado por estruturas de controle como laços, condições e funções.
+	**3.	Abstração:* o software é projetado para ser fácil de entender e manter, com abstrações que escondem detalhes técnicos.
 
 
 
@@ -126,29 +125,29 @@ Fonte: adaptado de Pressman (1995), Albertin (2009), Guerra e Colombo (2009).
 
 <h5><em><strong>2. Ferramentas de desenvolvimento – diagrama de caso de uso</strong></em></h5>
 
-		Um diagrama de caso de uso é uma ferramenta de desenvolvimento de software que ajuda a modelar e a documentar os casos de uso de um sistema. Ele é uma representação gráfica que descreve como os usuários interagem com o sistema e quais são as necessidades e objetivos que eles buscam atingir.
-		Um diagrama de caso de uso típico inclui os seguintes elementos:
-		Ator: um usuário ou grupo de usuários que interagem com o sistema.
+	Um diagrama de caso de uso é uma ferramenta de desenvolvimento de software que ajuda a modelar e a documentar os casos de uso de um sistema. Ele é uma representação gráfica que descreve como os usuários interagem com o sistema e quais são as necessidades e objetivos que eles buscam atingir.
+	Um diagrama de caso de uso típico inclui os seguintes elementos:
+	Ator: um usuário ou grupo de usuários que interagem com o sistema.
 
 
 
 
-		**Casos de uso:** as ações que os atores realizam para atingir seus objetivos.
-		**Requisitos:** as necessidades e objetivos dos atores que o sistema deve atender.
-		**Restrições:** as limitações e restrições que o sistema deve considerar.
+	**Casos de uso:* as ações que os atores realizam para atingir seus objetivos.
+	**Requisitos:* as necessidades e objetivos dos atores que o sistema deve atender.
+	**Restrições:* as limitações e restrições que o sistema deve considerar.
 		
 		Os diagramas de caso de uso são úteis para:
         Entender os requisitos dos usuários: ajudam a identificar as necessidades e objetivos dos atores e a priorizar os requisitos do sistema.
-		Modelar o comportamento do sistema: ajudam a descrever como o sistema se comporta em diferentes situações e como os atores interagem com ele.
-		Comunicar os requisitos do sistema: ajudam a documentar e a comunicar os requisitos do sistema para os desenvolvedores, gerentes e outros stakeholders.
+	Modelar o comportamento do sistema: ajudam a descrever como o sistema se comporta em diferentes situações e como os atores interagem com ele.
+	Comunicar os requisitos do sistema: ajudam a documentar e a comunicar os requisitos do sistema para os desenvolvedores, gerentes e outros stakeholders.
 
 
 <h5><em><strong>2.1 Diagrama de caso de uso</strong></em></h5>
 
-		Um diagrama de caso de uso é uma representação gráfica que descreve como os usuários interagem com um sistema. Ele é uma ferramenta importante para modelar e documentar a lógica do sistema e como os usuários o utilizam.
-			> Os diagramas de caso de uso são utilizados para obter requisitos funcionais do sistema. Descrevem as interações entre o sistema e os usuários. Em outras palavras, descrevem graficamente quem usará o sistema e de que maneira o usuário espera interagir com o sistema (MARTINS, 2002).
+	Um diagrama de caso de uso é uma representação gráfica que descreve como os usuários interagem com um sistema. Ele é uma ferramenta importante para modelar e documentar a lógica do sistema e como os usuários o utilizam.
+Os diagramas de caso de uso são utilizados para obter requisitos funcionais do sistema. Descrevem as interações entre o sistema e os usuários. Em outras palavras, descrevem graficamente quem usará o sistema e de que maneira o usuário espera interagir com o sistema (MARTINS, 2002).
 		
-			> Segundo Bentley e Whitten (2000), o diagrama de caso de uso retrata graficamente o sistema como uma coleção de casos de uso, atores (usuários) e suas relações. O diagrama comunica, em um alto nível, o escopo dos eventos de negócios que devem ser processados pelo sistema.
+Segundo Bentley e Whitten (2000), o diagrama de caso de uso retrata graficamente o sistema como uma coleção de casos de uso, atores (usuários) e suas relações. O diagrama comunica, em um alto nível, o escopo dos eventos de negócios que devem ser processados pelo sistema.
 
 
 
@@ -165,7 +164,7 @@ print
 
 
 
-		**A seguir são exibidos os principais casos de uso do sistema, assim como a descrição dos casos de uso.**
+		**A seguir são exibidos os principais casos de uso do sistema, assim como a descrição dos casos de uso. *
 <body>
    <table>
         <tr>
@@ -195,6 +194,7 @@ print
             </td>
         </tr>
         <tr>
+
             <th>Fluxo Alternativo 1</th>
             <td>
                 1. No passo 5, se não visualizar pessoa cadastrada, o sistema exibe mensagem de pessoa não localizada;<br>
@@ -202,6 +202,8 @@ print
             </td>
         </tr>
     </table>
+</body>
+<body>
 
     <table>
         <tr>
@@ -238,7 +240,8 @@ print
             </td>
         </tr>
     </table>
-
+</body>
+<body>
     <table>
         <tr>
             <th>Nome do cenário</th>
@@ -280,7 +283,8 @@ print
             </td>
         </tr>
     </table>
-
+</body>
+<body>
     <table>
         <tr>
             <th>Nome do cenário</th>
@@ -316,7 +320,8 @@ print
             </td>
         </tr>
     </table>
-
+</body>
+<body>
     <table>
         <tr>
             <th>Nome do cenário</th>
@@ -343,7 +348,8 @@ print
                 4. Se os dados forem válidos, o sistema cadastra o aluno;<br>
                 5. O Funcionário pode visualizar o aluno cadastrado.
             </
-
+</body>
+<body>
     <table>
         <tr>
             <th>Nome do cenário</th>
@@ -406,12 +412,12 @@ print
 <h5><em><strong>3.0 Diagrama de classes.</strong></em></h5>
 
 
-		Uma forma simples para representarmos classes é o uso de diagrama, ou seja, representação gráfica que descreve classes, objetos e relações entre eles em um sistema. Por isso é uma ferramenta importante para modelar e documentar todo estrutura do sistema.
+	Uma forma simples para representarmos classes é o uso de diagrama, ou seja, representação gráfica que descreve classes, objetos e relações entre eles em um sistema. Por isso é uma ferramenta importante para modelar e documentar todo estrutura do sistema.
 
-			> Guedes (2018) acrescenta que o diagrama de classes é um dos diagramas mais importantes como ferramenta de desenvolvimento. Seu principal objetivo está em permitir as visualizações das classes que constituem o software com seus respectivos atributos e métodos, bem como demonstrar como as classes do diagrama se relacionam, complementam e transmitem informações entre si
+Guedes (2018) acrescenta que o diagrama de classes é um dos diagramas mais importantes como ferramenta de desenvolvimento. Seu principal objetivo está em permitir as visualizações das classes que constituem o software com seus respectivos atributos e métodos, bem como demonstrar como as classes do diagrama se relacionam, complementam e transmitem informações entre si
 
 
-		**Diagrama de classes – Centro Universitário SENAC**
+		**Diagrama de classes – Centro Universitário SENAC*
 		FIGURA
 
 		**Fonte: Elaborado pelo autor**
@@ -420,29 +426,29 @@ print
 <h5><em><strong>CONSIDERAÇÕES FINAIS</strong></em></h5>
 
 
-		Ao realizar este projeto, concluímos que ele é um elemento fundamental na análise e desenvolvimento de sistemas, pois ele define a melhor direção e o escopo do trabalho a ser realizado. 
+	Ao realizar este projeto, concluímos que ele é um elemento fundamental na análise e desenvolvimento de sistemas, pois ele define a melhor direção e o escopo do trabalho a ser realizado. 
 		
-		O diagrama de caso de uso, nos permitiu através da representação gráfica descrever como os usuários interagem com um sistema. Ele foi uma ferramenta importante para modelarmos e documentarmos a lógica do sistema e como os usuários o utilizam. A utilização da descrição dos casos de uso que é uma parte importante do processo de análise de requisitos e modelagem de sistemas, nos permitiu entender melhor como os usuários interagem com o sistema e quais são suas necessidades e objetivos no projeto.
+	O diagrama de caso de uso, nos permitiu através da representação gráfica descrever como os usuários interagem com um sistema. Ele foi uma ferramenta importante para modelarmos e documentarmos a lógica do sistema e como os usuários o utilizam. A utilização da descrição dos casos de uso que é uma parte importante do processo de análise de requisitos e modelagem de sistemas, nos permitiu entender melhor como os usuários interagem com o sistema e quais são suas necessidades e objetivos no projeto.
 
 
 <h5><em><strong>REFERÊNCIAS</strong></em></h5>
 
 
-		PRESSMAN, S. Roger. Engenharia de software. 3. ed. São Paulo: McGraw-Hill, 1995.
+	PRESSMAN, S. Roger. Engenharia de software. 3. ed. São Paulo: McGraw-Hill, 1995.
 
-		LEITE, Jair C. Engenharia de software: ciclos de vida. Universidade do Rio Grande do Norte, 2006.
+LEITE, Jair C. Engenharia de software: ciclos de vida. Universidade do Rio Grande do Norte, 2006.
 		
-		SOMMERVILLE, Ian. Engenharia de software. 8. ed. São Paulo: Pearson Addison-Wesley, 2007.
+	SOMMERVILLE, Ian. Engenharia de software. 8. ed. São Paulo: Pearson Addison-Wesley, 2007.
 		
-		ALBERTIN, Alberto L. Administração de informática: funções e fatores críticos de sucesso. 6. ed. São Paulo: Atlas, 2009.
+	ALBERTIN, Alberto L. Administração de informática: funções e fatores críticos de sucesso. 6. ed. São Paulo: Atlas, 2009.
 		
-		SCHACH, Stephen R. Engenharia de software: os paradigmas clássicos e orientado a objetos. 7. ed. Porto Alegre: AMGH, 2010.
+	SCHACH, Stephen R. Engenharia de software: os paradigmas clássicos e orientado a objetos. 7. ed. Porto Alegre: AMGH, 2010.
 		
-		ENTLEY, Lonnie; WHITTEN, Jeffrey. L. Systems analysis and design methods. 7. ed. New York: Irwin/McGraw Hill, 2000.
+	ENTLEY, Lonnie; WHITTEN, Jeffrey. L. Systems analysis and design methods. 7. ed. New York: Irwin/McGraw Hill, 2000.
 		
-		GUEDES, Gilleanes T. A.  UML 2: uma abordagem prática. 3. ed. São Paulo: 
-		Novatec, 2018.
+	GUEDES, Gilleanes T. A.  UML 2: uma abordagem prática. 3. ed. São Paulo: Novatec, 2018.
 		
+
 
 
 
