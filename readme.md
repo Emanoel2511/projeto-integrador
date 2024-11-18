@@ -119,7 +119,7 @@
 
 
 
-FIGURA
+![](FIGURA1.png)
 Fonte: adaptado de Pressman (1995), Albertin (2009), Guerra e Colombo (2009).
 
 
@@ -379,7 +379,7 @@ print
     <table>
         <tr>
             <th>Nome do cenário</th>
-            <td>[UC005] - Cadastro de Aluno</td>
+            <td>[UC005] Cadastro de Aluno</td>
         </tr>
         <tr>
             <th>Atores</th>
@@ -411,7 +411,7 @@ print
     <table>
         <tr>
             <th>Nome do cenário</th>
-            <td>[UC006] – Acessar a Universidade</td>
+            <td>[UC006] Acessar a Universidade</td>
         </tr>
         <tr>
             <th>Atores</th>
@@ -449,7 +449,7 @@ print
             </td>
         </tr>
         <tr>
-            <th>Fluxo de Exceção – Excesso de tentativas</th>
+            <th>Fluxo de Exceção_Excesso de tentativas</th>
             <td>
                 Após 3 tentativas de login:<br>
                 1. O sistema bloqueia o usuário;<br>
@@ -462,7 +462,7 @@ print
 
 
 
-
+---
 
 
 
@@ -517,6 +517,8 @@ print
 		GUEDES, Gilleanes T. A.  UML 2: uma abordagem prática. 3. ed. São Paulo: 
 		Novatec, 2018.
 		
+
+
 
 
 
