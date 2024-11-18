@@ -1,72 +1,28 @@
 # Projeto Integrador
 
 
-##CENTRO UNIVERSITÁRIO SENAC
-
-<h1>PROJETO INTEGRADOR I: PROCESSO DE MODELAGEM DE UM SISTEMA ORIENTADO A OJETOS DE UMA GRANDE UNIVERSIDADE</h1>
-<h1><em><strong> SISTEMA DE GESTÃO DE DADOS DA UNIVERDADE SENAC</strong></em></h1>
+<h5>CENTRO UNIVERSITÁRIO SENAC</h5>
 
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Integrador</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            line-height: 1.6;
-        }
-        .center {
-            text-align: center;
-        }
-        .title {
-            font-size: 24px;
-            font-weight: bold;
-        }
-        .subtitle {
-            font-size: 20px;
-            font-weight: bold;
-            margin-top: 20px;
-        }
-        .authors {
-            margin-top: 10px;
-        }
-        .location-date {
-            margin-top: 20px;
-        }
-        .section-title {
-            font-size: 18px;
-            font-weight: bold;
-            margin-top: 30px;
-        }
-        .subsection-title {
-            font-size: 16px;
-            font-weight: bold;
-            margin-top: 20px;
-        }
-        .content {
-            margin-top: 10px;
-        }
-    </style>
-</head>
-<body>
-    <div class="center title">CENTRO UNIVERSITÁRIO SENAC</div>
-    <div class="center subtitle">PROJETO INTEGRADOR I: PROCESSO DE MODELAGEM DE UM SISTEMA ORIENTADO A OBJETOS DE UMA GRANDE UNIVERSIDADE</div>
-    <div class="center subtitle">SISTEMA DE GESTÃO DE DADOS DA UNIVERSIDADE SENAC</div>
 
-    <div class="center authors">
-        CESAR AMORIM DE SOUSA<br>
-        EMANOEL VIDAL CERQUEIRA DE MIRANDA<br>
-        GABRIELLE DE CARVALHO DA MOTA SILVEIRA<br>
-        LARISSA CREMM LEMES<br>
-        MARIA CECILIA BENTO GONCALVES<br>
-        RODRIGO MONTEIRO DE OLIVEIRA<br>
-        SERGIO LEONARDO SOUZA TAVARES<br>
+<h3>PROJETO INTEGRADOR I: PROCESSO DE MODELAGEM DE UM SISTEMA ORIENTADO A OJETOS DE UMA GRANDE UNIVERSIDADE</h3>
+
+
+
+<h5><em><strong> SISTEMA DE GESTÃO DE DADOS DA UNIVERDADE SENAC</strong></em></h5>
+
+
+
+  
+        CESAR AMORIM DE SOUSA
+        EMANOEL VIDAL CERQUEIRA DE MIRANDA
+        GABRIELLE DE CARVALHO DA MOTA SILVEIRA
+        LARISSA CREMM LEMES
+        MARIA CECILIA BENTO GONCALVES
+        RODRIGO MONTEIRO DE OLIVEIRA
+        SERGIO LEONARDO SOUZA TAVARES
         VITOR ALVES BERNADINO
-    </div>
+
 
     <div class="center location-date">São Paulo<br>2024</div>
 
