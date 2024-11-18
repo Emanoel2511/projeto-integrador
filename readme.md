@@ -1,7 +1,6 @@
 # Projeto Integrador
 
 
-
 <h4>CENTRO UNIVERSITÁRIO SENAC</h4>
 
 
@@ -120,6 +119,7 @@
 
 
 ![](FIGURA1.png)
+
 Fonte: adaptado de Pressman (1995), Albertin (2009), Guerra e Colombo (2009).
 
 
@@ -204,7 +204,9 @@ Fonte: adaptado de Pressman (1995), Albertin (2009), Guerra e Colombo (2009).
 
 
 <h4><em><strong>Diagrama de caso de uso – Centro Universitário SENAC</strong></em></h4>
-print
+
+
+![](Diagrama_de_Caso.png)
 
 
 		Fonte: Elaborado pelo autor.
@@ -479,7 +481,8 @@ print
 			as classes do diagrama se relacionam, complementam e transmitem informações entre si
 
 <h5><em><strong>Diagrama de classes – Centro Universitário SENAC</strong></em></h5>
-		FIGURA
+
+![](Diagrama_de_Classes.png)
 
 
 <h5><em><strong>Fonte: Elaborado pelo autor</strong></em></h5>
@@ -517,6 +520,12 @@ print
 		GUEDES, Gilleanes T. A.  UML 2: uma abordagem prática. 3. ed. São Paulo: 
 		Novatec, 2018.
 		
+
+
+
+
+
+
 
 
 
