@@ -1,7 +1,6 @@
 # Projeto Integrador
 
 
-
 <h5>CENTRO UNIVERSITÁRIO SENAC</h5>
 
 
@@ -29,8 +28,8 @@
 
 <h5><em><strong>AGRADECIMENTOS</strong></em></h5>
 
-        Agradecemos em primeiro lugar, a Deus, por iluminar nossos passos, e nos dar a certeza de que os desafios estão presentes em nossas vidas para serem superados.<br>
-        Agradecemos ao nosso orientador e professor, por aceitar e compartilhar conosco o desafio que é executar um trabalho de conclusão de curso e a todos professores envolvidos que nos proporcionaram e contribuíram no desenvolvimento deste trabalho, e com certeza estarão presentes nas próximas etapas.<br>
+        Agradecemos em primeiro lugar, a Deus, por iluminar nossos passos, e nos dar a certeza de que os desafios estão presentes em nossas vidas para serem superados.
+        Agradecemos ao nosso orientador e professor, por aceitar e compartilhar conosco o desafio que é executar um trabalho de conclusão de curso e a todos professores envolvidos que nos proporcionaram e contribuíram no desenvolvimento deste trabalho, e com certeza estarão presentes nas próximas etapas.
         Com certeza as críticas e sugestões que todos fizeram, tornou este trabalho o que ele é hoje.
 
 
@@ -62,7 +61,7 @@
 
 <h5><em><strong>SUMÁRIO</strong></em></h5>
  
-		***INTRODUÇÃO***
+		**INTRODUÇÃO**
         1. Desenvolvimento de sistemas;
         1.1. Sistemas de software: definição;
         1.2 Paradigmas de desenvolvimento: estruturado e orientado a objeto;
@@ -82,7 +81,7 @@
 <h5><em><strong>INTRODUÇÃO</strong></em></h5>
 		
 
-		***Desenvolvimento de Sistemas***
+		**Desenvolvimento de Sistemas**
 		
 		A informação é algo tão valioso para as instituições quanto o produto e o serviço que oferecem e, com o avanço das tecnologias e a facilidade ao seu acesso, as empresas passaram a depender cada vez mais desses dados e dos sistemas computacionais disponíveis para acompanhar suas atividades.
 		Os sistemas e softwares exercem um papel muito importante nesta era tecnológica, nos dias atuais as empresas, indivíduos, governo e população em geram tem total dependência dessa tecnologia.
@@ -117,9 +116,9 @@ Fonte: adaptado de Pressman (1995), Albertin (2009), Guerra e Colombo (2009).
 
 		A programação estruturada tem como base três principais conceitos:
 
-			1.	***Modularidade:*** o software é dividido em módulos independentes que podem ser facilmente modificados e reutilizados.
-			2.	***Estruturas de controle:*** o fluxo de dados é controlado por estruturas de controle como laços, condições e funções.
-			3.	***Abstração:*** o software é projetado para ser fácil de entender e manter, com abstrações que escondem detalhes técnicos.
+			1.	**Modularidade:** o software é dividido em módulos independentes que podem ser facilmente modificados e reutilizados.
+			2.	**Estruturas de controle:** o fluxo de dados é controlado por estruturas de controle como laços, condições e funções.
+			3.	**Abstração:** o software é projetado para ser fácil de entender e manter, com abstrações que escondem detalhes técnicos.
 
 
 
@@ -134,9 +133,9 @@ Fonte: adaptado de Pressman (1995), Albertin (2009), Guerra e Colombo (2009).
 
 
 
-		***Casos de uso:*** as ações que os atores realizam para atingir seus objetivos.
-		***Requisitos:*** as necessidades e objetivos dos atores que o sistema deve atender.
-		***Restrições:*** as limitações e restrições que o sistema deve considerar.
+		**Casos de uso:** as ações que os atores realizam para atingir seus objetivos.
+		**Requisitos:** as necessidades e objetivos dos atores que o sistema deve atender.
+		**Restrições:** as limitações e restrições que o sistema deve considerar.
 		
 		Os diagramas de caso de uso são úteis para:
         Entender os requisitos dos usuários: ajudam a identificar as necessidades e objetivos dos atores e a priorizar os requisitos do sistema.
@@ -166,12 +165,185 @@ print
 
 
 
-		***A seguir são exibidos os principais casos de uso do sistema, assim como a descrição dos casos de uso.***
-
-
-
-
+		**A seguir são exibidos os principais casos de uso do sistema, assim como a descrição dos casos de uso.**
 <body>
+   <table>
+        <tr>
+            <th>Nome do cenário</th>
+            <td>[UC001] Cadastro de Pessoa Física</td>
+        </tr>
+        <tr>
+            <th>Atores</th>
+            <td>Administrador, Funcionário, Aluno, Fornecedor, Professor</td>
+        </tr>
+        <tr>
+            <th>Pré-condições</th>
+            <td>Funcionário tem permissão para cadastrar pessoas físicas, os dados da pessoa física são válidos</td>
+        </tr>
+        <tr>
+            <th>Pós-condições</th>
+            <td>A pessoa física está cadastrada no sistema e os dados são válidos.</td>
+        </tr>
+        <tr>
+            <th>Fluxo Básico / Principal</th>
+            <td>
+                1. O Funcionário acessa a tela de cadastro de pessoa física;<br>
+                2. O Funcionário preenche os campos com os dados da pessoa física;<br>
+                3. O sistema verifica se os dados são válidos;<br>
+                4. Se os dados forem válidos, o sistema cadastra a pessoa física;<br>
+                5. O Funcionário pode visualizar a pessoa física cadastrada.
+            </td>
+        </tr>
+        <tr>
+            <th>Fluxo Alternativo 1</th>
+            <td>
+                1. No passo 5, se não visualizar pessoa cadastrada, o sistema exibe mensagem de pessoa não localizada;<br>
+                2. Encerra-se o caso de uso e volta a opção 1.
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th>Nome do cenário</th>
+            <td>[UC002] Cadastro de Pessoa Jurídica</td>
+        </tr>
+        <tr>
+            <th>Atores</th>
+            <td>Funcionário, pessoa jurídica</td>
+        </tr>
+        <tr>
+            <th>Pré-condições</th>
+            <td>Funcionário tem permissão para cadastrar pessoas físicas, os dados da pessoa Jurídica são válidos.</td>
+        </tr>
+        <tr>
+            <th>Pós-condições</th>
+            <td>A pessoa jurídica está cadastrada no sistema e os dados são válidos.</td>
+        </tr>
+        <tr>
+            <th>Fluxo Básico</th>
+            <td>
+                1. O Funcionário acessa a tela de cadastro de pessoa jurídica;<br>
+                2. O Funcionário preenche os campos com os dados da pessoa jurídica;<br>
+                3. O sistema verifica se os dados são válidos;<br>
+                4. Se os dados forem válidos, o sistema cadastra a jurídica;<br>
+                5. O Funcionário pode visualizar a pessoa jurídica cadastrada.
+            </td>
+        </tr>
+        <tr>
+            <th>Fluxo Alternativo 1</th>
+            <td>
+                1. No passo 5, se não visualizar Pessoa Jurídica cadastrada, o sistema exibe mensagem de Pessoa Jurídica não localizada;<br>
+                2. Encerra-se o caso de uso e volta a opção 1.
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th>Nome do cenário</th>
+            <td>[UC003] Cadastro de Fornecedor</td>
+        </tr>
+        <tr>
+            <th>Atores</th>
+            <td>Funcionário/Fornecedor</td>
+        </tr>
+        <tr>
+            <th>Pré-condições</th>
+            <td>Funcionário tem permissão para cadastrar Fornecedor, os dados do Fornecedor são válidos.</td>
+        </tr>
+        <tr>
+            <th>Pós-condições</th>
+            <td>A pessoa jurídica/Fornecedor está cadastrada no sistema e os dados são válidos.</td>
+        </tr>
+        <tr>
+            <th>Fluxo Básico</th>
+            <td>
+                1. O sistema solicita o cadastro Fornecedor; (fluxo alternativo 1 cadastro representante empresa);<br>
+                2. O funcionário digita o nome da empresa;<br>
+                3. O funcionário digita o nome e sobrenome do representante;<br>
+                4. O funcionário digita o CNPJ;<br>
+                5. O funcionário digita o email;<br>
+                6. O funcionário confirma o email;<br>
+                7. O funcionário digita uma senha;<br>
+                8. O funcionário confirma os dados.<br>
+                9. O Funcionário pode visualizar fornecedor cadastrado.
+            </td>
+        </tr>
+        <tr>
+            <th>Fluxo Alternativo 1 – Dados incompletos</th>
+            <td>
+                1. No passo 3, se o funcionário não criar cadastro de representante ele não acessará universidade;<br>
+                2. O sistema envia uma mensagem da necessidade de cadastro do representante fluxo alternativo 1;<br>
+                3. No passo 9, se não visualizar fornecedor cadastrado, o sistema exibe mensagem de fornecedor não localizada;<br>
+                4. Encerra-se o caso de uso e volta a opção 1.
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th>Nome do cenário</th>
+            <td>[UC004] Cadastro de Professores</td>
+        </tr>
+        <tr>
+            <th>Atores</th>
+            <td>Funcionário, Professor</td>
+        </tr>
+        <tr>
+            <th>Pré-condições</th>
+            <td>Funcionário tem permissão para cadastrar Professor, os dados do Professor são válidos.</td>
+        </tr>
+        <tr>
+            <th>Pós-condições</th>
+            <td>O professor está cadastrada no sistema e os dados são válidos.</td>
+        </tr>
+        <tr>
+            <th>Fluxo Básico</th>
+            <td>
+                1. O Funcionário acessa a tela de cadastro de professor;<br>
+                2. O Funcionário preenche os campos com os dados do professor;<br>
+                3. O sistema verifica se os dados são válidos;<br>
+                4. Se os dados forem válidos, o sistema cadastra o professor;<br>
+                5. O Funcionário pode visualizar o professor cadastrado.
+            </td>
+        </tr>
+        <tr>
+            <th>Fluxo Alternativo 1</th>
+            <td>
+                1. No passo 5, se não visualizar pessoa professor cadastrado, o sistema exibe mensagem de professor não localizado;<br>
+                2. Encerra-se o caso de uso e volta a opção 1.
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th>Nome do cenário</th>
+            <td>[UC005] - Cadastro de Aluno</td>
+        </tr>
+        <tr>
+            <th>Atores</th>
+            <td>Funcionário, Aluno</td>
+        </tr>
+        <tr>
+            <th>Pré-condições</th>
+            <td>Funcionário tem permissão para cadastrar Aluno, os dados do aluno são válidos e aprovado em curso.</td>
+        </tr>
+        <tr>
+            <th>Pós-condições</th>
+            <td>Aluno está cadastrada no sistema e os dados são válidos.</td>
+        </tr>
+        <tr>
+            <th>Fluxo Básico</th>
+            <td>
+                1. O Funcionário acessa a tela de cadastro de aluno;<br>
+                2. O Funcionário preenche os campos com os dados do aluno;<br>
+                3. O sistema verifica se os dados são válidos;<br>
+                4. Se os dados forem válidos, o sistema cadastra o aluno;<br>
+                5. O Funcionário pode visualizar o aluno cadastrado.
+            </
+
     <table>
         <tr>
             <th>Nome do cenário</th>
@@ -223,7 +395,58 @@ print
         </tr>
     </table>
 </body>
-</html>
+
+
+
+
+
+
+
+
+<h5><em><strong>3.0 Diagrama de classes.</strong></em></h5>
+
+
+		Uma forma simples para representarmos classes é o uso de diagrama, ou seja, representação gráfica que descreve classes, objetos e relações entre eles em um sistema. Por isso é uma ferramenta importante para modelar e documentar todo estrutura do sistema.
+
+			> Guedes (2018) acrescenta que o diagrama de classes é um dos diagramas mais importantes como ferramenta de desenvolvimento. Seu principal objetivo está em permitir as visualizações das classes que constituem o software com seus respectivos atributos e métodos, bem como demonstrar como as classes do diagrama se relacionam, complementam e transmitem informações entre si
+
+
+		**Diagrama de classes – Centro Universitário SENAC**
+		FIGURA
+
+		**Fonte: Elaborado pelo autor**
+
+
+<h5><em><strong>CONSIDERAÇÕES FINAIS</strong></em></h5>
+
+
+		Ao realizar este projeto, concluímos que ele é um elemento fundamental na análise e desenvolvimento de sistemas, pois ele define a melhor direção e o escopo do trabalho a ser realizado. 
+		
+		O diagrama de caso de uso, nos permitiu através da representação gráfica descrever como os usuários interagem com um sistema. Ele foi uma ferramenta importante para modelarmos e documentarmos a lógica do sistema e como os usuários o utilizam. A utilização da descrição dos casos de uso que é uma parte importante do processo de análise de requisitos e modelagem de sistemas, nos permitiu entender melhor como os usuários interagem com o sistema e quais são suas necessidades e objetivos no projeto.
+
+
+<h5><em><strong>REFERÊNCIAS</strong></em></h5>
+
+
+		PRESSMAN, S. Roger. Engenharia de software. 3. ed. São Paulo: McGraw-Hill, 1995.
+
+		LEITE, Jair C. Engenharia de software: ciclos de vida. Universidade do Rio Grande do Norte, 2006.
+		
+		SOMMERVILLE, Ian. Engenharia de software. 8. ed. São Paulo: Pearson Addison-Wesley, 2007.
+		
+		ALBERTIN, Alberto L. Administração de informática: funções e fatores críticos de sucesso. 6. ed. São Paulo: Atlas, 2009.
+		
+		SCHACH, Stephen R. Engenharia de software: os paradigmas clássicos e orientado a objetos. 7. ed. Porto Alegre: AMGH, 2010.
+		
+		ENTLEY, Lonnie; WHITTEN, Jeffrey. L. Systems analysis and design methods. 7. ed. New York: Irwin/McGraw Hill, 2000.
+		
+		GUEDES, Gilleanes T. A.  UML 2: uma abordagem prática. 3. ed. São Paulo: 
+		Novatec, 2018.
+		
+
+
+
+
 
 
 
