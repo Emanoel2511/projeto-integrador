@@ -497,9 +497,9 @@ Fonte: adaptado de Pressman (1995), Albertin (2009), Guerra e Colombo (2009).
 ![](3.png)
 ![](4.png)
 ![](5.png)
-![](5.png)
 ![](6.png)
 ![](7.png)
+
 
 <h4><em><strong>CONSIDERAÇÕES FINAIS</strong></em></h4>
 
