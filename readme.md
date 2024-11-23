@@ -7,7 +7,7 @@
 
 <h3>PROJETO INTEGRADOR I: PROCESSO DE MODELAGEM DE UM SISTEMA ORIENTADO A OJETOS DE UMA GRANDE UNIVERSIDADE</h3>
 
-
+Link do Prototipo do Figma: https://www.figma.com/proto/w4HaAlvdktpbdnwR3sFBts/SENAC---PI---EQUIPE-39?node-id=0-1&t=S8k34Vh4A0cDk6u4-1
 
 <h4><em><strong> SISTEMA DE GESTÃO DE DADOS DA UNIVERDADE SENAC</strong></em></h4>
 
@@ -488,6 +488,16 @@ Fonte: adaptado de Pressman (1995), Albertin (2009), Guerra e Colombo (2009).
 <h5><em><strong>Fonte: Elaborado pelo autor</strong></em></h5>
 
 
+<h4><em><strong>3.2 Prototipação.</strong></em></h4>
+
+![](1.png)
+![](2.png)
+![](3.png)
+![](4.png)
+![](5.png)
+![](5.png)
+![](6.png)
+![](7.png)
 
 <h4><em><strong>CONSIDERAÇÕES FINAIS</strong></em></h4>
 
